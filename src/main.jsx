@@ -10,26 +10,28 @@ import {
 import Root from './components/Root/Root';
 import Home from './components/Home/Home.jsx';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
-const router = createBrowserRouter([
+const router = createBrowserRouter([   
   {
     path: "/",
     element: <Root></Root>,
-children: [
-  {
-    path:'/',
-element: <Home></Home>
-  },
-  {
-    path:'/applied',
-    element:<AppliedJobs></AppliedJobs>
-  }
-]
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: '/applied',
+        element: <AppliedJobs></AppliedJobs>
+      }
+    ]
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
