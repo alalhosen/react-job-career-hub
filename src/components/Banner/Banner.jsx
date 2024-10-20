@@ -2,7 +2,7 @@
 const Banner = () => {
     return (
         <div>
-            <h2>Home page Banner</h2>
+            <h2 className="text-5xl text-center">Home page Banner</h2>
         </div>
     );
 };
