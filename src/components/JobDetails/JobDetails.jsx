@@ -19,7 +19,7 @@ const JobDetails = () => {
         <div>
             <div className="grid gap-4 md:grid-cols-4">
                 <div className="border md:col-span-3">
-                    <h2 className="text-4xl">Details coming here</h2>
+                    <h2 className="text-4xl">Job Details coming here now</h2>
                     <h2>Job Details of:{job.job_title}</h2>
                     <p>{job.company_name}</p>
                 </div>
