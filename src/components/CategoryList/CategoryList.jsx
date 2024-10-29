@@ -11,15 +11,19 @@ const CategoryList = () => {
             <div>
                 <div>
                     <h3>Account & Finance</h3>
+                    <p>300 Jobs Available</p>
                 </div>
                 <div>
                     <h3>Create Design</h3>
+                    <p>100+ Jobs Available</p>
                 </div>
                 <div>
                     <h3>Marketing & Sale</h3>
+                    <p>150 Jobs Available</p>
                 </div>
                 <div>
                     <h3>Engineering Job</h3>
+                    <p>224 Jobs Available</p>
                 </div>
 
             </div>
