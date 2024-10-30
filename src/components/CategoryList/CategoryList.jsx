@@ -5,7 +5,7 @@ const CategoryList = () => {
             <div className="mt-8">
                 <h2 className="text-5xl text-center">Job Category List</h2>
                 <p className="text-center mt-4">
-                    Explore thousands of job opportunities with all the information you need. Its your future
+                    Explore thousands of job opportunities with all the information you need. Its your future project.i want to create thish project smothly
                 </p>
             </div>
             <div className=" flex space-x-20 mt-3">
